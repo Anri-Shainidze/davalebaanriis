@@ -3,7 +3,9 @@ import { useState } from "react";
 import logo from "../src/assets/kogo.png";
 import on from "../src/assets/on.png";
 
-function App() {
+function App(
+
+) {
   const [selectedRating, setSelectedRating] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -20,7 +22,8 @@ function App() {
   return (
     <>
       <div className="forall">
-        {!isSubmitted ? (
+        {!isSubmitted ? 
+        (
           <>
             <div className="anrisimage">
               <img src={logo} alt="logo" />
