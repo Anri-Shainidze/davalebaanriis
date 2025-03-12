@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Russo+One&family=Sigmar&display=swap");
+body {
+  place-items: center;
+  display: grid;
+  height: 100vh;
+  background-color: hsla(218, 11%, 8%, 1);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rowdies", sans-serif;
+}
+.forall {
+  width: 327px;
+  height: 360px;
+  border-radius: 15px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.nums {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.first {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: hsla(213, 19%, 18%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.6s ease-in-out;
+}
+
+.two {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: hsla(213, 19%, 18%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.first:hover {
+  background: hsla(25, 97%, 53%, 1);
+}
+.two:hover {
+  background: hsla(25, 97%, 53%, 1);
+}
+.three {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: hsla(213, 19%, 18%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.three:hover {
+  background: hsla(25, 97%, 53%, 1);
+}
+.four {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: hsla(213, 19%, 18%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.four:hover {
+  background: hsla(25, 97%, 53%, 1);
+}
+.five {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: hsla(213, 19%, 18%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.five:hover {
+  background: hsla(25, 97%, 53%, 1);
+}
+.text-line {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+h1 {
+  font-family: Overpass;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: white;
+}
+span {
+  font-family: Overpass;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: hsla(216, 12%, 63%, 1);
+}
+p {
+  font-family: Overpass;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+  text-align: center;
+  color: white;
+}
+p:hover {
+  color: white;
+}
+button {
+  border: none;
+  height: 40px;
+  border-radius: 15px;
+  background: hsla(25, 97%, 53%, 1);
+  cursor: pointer;
+  font-family: "Overpass";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 1.87px;
+  color: white;
+  transition: 0.7s ease-in-out;
+  text-align: center;
+}
+button:hover {
+  background: hsla(0, 0%, 100%, 1);
+  color: hsla(25, 97%, 53%, 1);
+}
+.appreciate-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.appreciate-you h2 {
+  color: white;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.sp {
+  background: hsla(213, 19%, 18%, 1);
+  width: 193px;
+  height: 32px;
+  border-radius: 22.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  font-family: Overpass;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: hsla(25, 97%, 53%, 1);
+}
+.sp span {
+  color: hsla(25, 97%, 53%, 1);
+}
+
+.first.select {
+  background: hsla(217, 12%, 54%, 1);
+  pointer-events: none;
+  color: white;
+}
